@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App > * {
+  font-size: 100px;
+  margin: 2% 0;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#reset {
+  width: 30%;
+}
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
